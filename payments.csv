@@ -1,0 +1,18 @@
+Employee ID,Month,Amount Paid,Transfer Type
+1,2024-01-01,3200,Base Salary
+1,2024-02-01,3100,Base Salary
+1,2024-03-01,5000,Base Salary
+1,2024-04-01,3300,Housing
+2,2024-01-01,4100,Base Salary
+2,2024-02-01,4200,Housing
+2,2024-03-01,4500,Housing
+2,2024-04-01,6000,Housing
+3,2024-01-01,3600,Base Salary
+3,2024-02-01,3700,Housing
+3,2024-03-01,5500,Housing
+3,2024-04-01,3400,Housing
+4,2024-01-01,4600,Base Salary
+4,2024-02-01,4700,Housing
+5,2024-01-01,5100,Housing
+5,2024-02-01,5200,Housing
+5,2024-03-01,8000,Housing  # Anomaly example for employee 5
