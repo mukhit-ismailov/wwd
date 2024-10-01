@@ -6,8 +6,8 @@ import seaborn as sns
 
 # Step 1: Load Data
 # Assuming you have two CSV files: 'employees.csv' and 'payments.csv'
-employees_df = pd.read_csv('employees.csv')  # Contains Employee ID, Min Salary, Max Salary
-payments_df = pd.read_csv('payments.csv')    # Contains Employee ID, Month, Amount Paid, Transfer Type
+employees_df = pd.read_csv('../recommendation/employees.csv')  # Contains Employee ID, Min Salary, Max Salary
+payments_df = pd.read_csv('../recommendation/payments.csv')    # Contains Employee ID, Month, Amount Paid, Transfer Type
 
 # Step 2: Merge DataFrames
 merged_df = pd.merge(payments_df, employees_df, on='Employee ID')

@@ -2,7 +2,7 @@ from scipy import stats
 import pandas as pd
 
 # Sample data
-df = pd.read_csv("/Users/mukhit.ismailov/Work/MLModel/monthly_payment_data.csv")
+df = pd.read_csv("/monthly_payment_data.csv")
 # Pivot the DataFrame to have payment types as columns
 pivot_df = df.pivot(index='month', columns='payment_type', values='amount')
 
